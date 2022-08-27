@@ -32,14 +32,14 @@ const a = {
     empty1: undefined,
     empty2: null,
     array: [
-        {name: 'jack', age: 18},
-        {name: 'ronger', age: 19}
+        { name: 'jack', age: 18 },
+        { name: 'ronger', age: 19 }
     ],
     date: new Date(2000, 0, 1, 20, 30, 0),
     regex: /\.(j|t)sx/i,
-    object: {name: 'ronger', age: 26},
+    object: { name: 'ronger', age: 26 },
     f1: (a, b) => a + b,
-    f2: function(a, b) { return a + b; }
+    f2: function (a, b) { return a + b; }
 }
 
 const b = deepClone(a)
